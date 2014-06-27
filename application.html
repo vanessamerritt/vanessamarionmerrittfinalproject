@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<title>ABCR Adoption Application</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="nav">
+	<ul class="nav">
+			<li><a href="#events">Events</a></li>
+			<li><a href="#adopt">Adopt</a>
+				<ul class="subMenu">
+					<li><a href="adopt.html">Animals for Adoption</a></li>
+					<li><a href="application.html">Adotion Application</a></li>
+					<li><a href="#foster">Foster an Animal</a></li>
+				</ul>	
+			</li>
+			<li><a href="#help">How to Help</a>
+				<ul class="subMenu">
+					<li><a href="foster">Foster an Animal</a></li>
+					<li><a href="volunteer">Volunteer</a></li>
+					<li><a href="donate">Donate</a></li>
+				</ul>	
+			</li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#contact">Contact</a></li>
+	</ul>	
+</div>
+
+<div class="logo">
+	<img src="i/abcrlogo.jpg" class="logo" alt="logo">
+</div>
+
+	<form action="sendEmail.php" class="contact">
+			<input type="text" name="firstname" class="firstname" placeholder="First Name">
+			<input type="text" name="lastname" class="lastname" placeholder="Last Name">
+			<input type="email" name="email" class="email" placeholder="Email">
+			<textarea name="message" cols="30" rows="10"></textarea>
+			<input type="submit" value="send" class="submitButton">
+	</form>
+
+</body>
+</html>
